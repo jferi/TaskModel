@@ -1,3 +1,4 @@
+
 # Task Management API Documentation
 
 ## Setup
@@ -16,9 +17,16 @@ To set up the Task Management API locally:
 
 `python manage.py migrate`
 
-4. Run the development server:
+4. Run this Python code in your repository after installation:
+
+`python -m spacy download en_core_web_md`
+
+5. Run the development server:
 
 `python manage.py runserver 8888`
+
+
+
 
 ## Endpoints
 
